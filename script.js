@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Simple confetti-like effect via log or alert for now
         // But let's just make it feel interactive
-        button.style.background = 'linear-gradient(135deg, #10b981 0%, #3b82f6 100%)';
+        button.style.background = 'linear-gradient(135deg, #a7f3d0 0%, #93c5fd 100%)';
         
         setTimeout(() => {
             button.textContent = '探索更多';
-            button.style.background = 'linear-gradient(135deg, #6366f1 0%, #a855f7 100%)';
+            button.style.background = 'linear-gradient(135deg, #f9a8d4 0%, #c084fc 50%, #93c5fd 100%)';
         }, 2000);
     });
 
