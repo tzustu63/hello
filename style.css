@@ -152,3 +152,29 @@ body {
 .glass-card {
     animation: fadeIn 1s ease-out forwards;
 }
+
+/* Version Badge */
+.version-badge {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    cursor: default;
+    z-index: 10;
+}
+
+.version-badge:hover {
+    color: var(--text-primary);
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
